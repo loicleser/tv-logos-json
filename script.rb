@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require 'json'
 
-project_name = "aelptos/tv-logos"
-json_project_name = "aelptos/tv-logos-json"
+project_name = "tv-logo/tv-logos"
+json_project_name = "loicleser/tv-logos-json"
 
 puts "> Downloading archive..."
 system("curl -L -o archive.zip https://github.com/#{project_name}/archive/refs/heads/main.zip")
